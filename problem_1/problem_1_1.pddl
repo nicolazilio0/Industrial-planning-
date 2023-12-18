@@ -20,6 +20,7 @@
     ; robot starts at central warehouse
     (atr r1 centralwarehouse)
 
+
     (free l1)
     (free l2)
     (free l3)
@@ -115,7 +116,7 @@
 
 (:goal (and
 
-    (atr r1 l4)
+    (atr r1 centralwarehouse)
     (has_bolt ws3)
     (has_tool ws2)
     (has_bolt ws2)

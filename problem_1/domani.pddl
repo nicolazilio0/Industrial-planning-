@@ -73,14 +73,9 @@
     (:action deliver_box_to_ws
         :parameters (?r - robot ?b - box ?ws - work_station ?l - location ?s - supply)
         :precondition (and (atr ?r ?l) (atws ?ws ?l) (loaded ?r) (carries ?r ?b) (contains ?b ?s) )
-        :effect (and (not(loaded ?r)) (not(carries ?r ?b)) (atbw ?b ?ws) (atbl ?b ?l) (box_delivered ?b ?ws) (ats ?s ?l) )
+        :effect (and (not(loaded ?r)) (not(carries ?r ?b)) (atbw ?b ?ws) (not(atbl ?b ?l)) (box_delivered ?b ?ws) (ats ?s ?l) )
     )
-
-
-
-
-
-    
+   
     (:action fill_box
         :parameters (?r - robot ?b - box ?s - supply ?l - location) 
         :precondition (and (atbl ?b ?l) (atr ?r ?l) (empty ?b) (ats ?s ?l) )
@@ -90,7 +85,7 @@
 
     (:action empty_box
         :parameters (?r - robot ?b - box ?s - supply ?l - location ?ws - work_station)
-        :precondition (and (atr ?r ?l) (atws ?ws ?l) (contains ?b ?s) (ats ?s ?l) (box_delivered ?b ?ws) (ats ?s ?l) )
+        :precondition (and (atr ?r ?l) (atws ?ws ?l) (contains ?b ?s) (ats ?s ?l) (box_delivered ?b ?ws) (ats ?s ?l) (not (loaded ?r)) )
         :effect (and (not (contains ?b ?s)) (empty ?b) (has ?ws ?s) (not (ats ?s ?l)) )
     )
 
