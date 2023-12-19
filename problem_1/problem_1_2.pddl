@@ -1,7 +1,7 @@
 (define (problem problem_1) (:domain assignment_problem_1)
 (:objects 
     r1 r2 r3 - robot
-    l1 l2 l3 l4 l5 l6-location
+    l1 l2 l3 l4 l5 l6 - location
     centralwarehouse - warehouse
     b1 b2 b3 b4 b5 b6 - box
     valve1 valve2 valve3 valve4 valve5 valve6 - valve

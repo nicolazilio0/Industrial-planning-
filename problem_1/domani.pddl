@@ -64,8 +64,8 @@
     )
 
     ; pick up a box
-    (:action pick_box_from_wa
-        :parameters (?r - robot ?b - box ?l - warehouse)
+    (:action pick_box_from_location
+        :parameters (?r - robot ?b - box ?l - location)
         :precondition (and (atr ?r ?l) (atbl ?b ?l) (not (loaded ?r)))
         :effect (and  (not (atbl ?b ?l)) (carries ?r ?b) (loaded ?r))
     )

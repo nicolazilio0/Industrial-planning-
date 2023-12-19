@@ -98,8 +98,8 @@
     )
     
 
-    (:durative-action pick_box_from_wa
-        :parameters (?r - robot ?b - box ?l - warehouse ?c0 - num ?c1 - num)
+    (:durative-action pick_box_from_location
+        :parameters (?r - robot ?b - box ?l - location ?c0 - num ?c1 - num)
         :duration (= ?duration 1)
         :condition (and 
             (at start (and (and (atr ?r ?l) (atbl ?b ?l) (not (busy ?r)) (capacity ?r ?c0) (not (max_capacity ?c0 ?r)) (succ ?c0 ?c1))

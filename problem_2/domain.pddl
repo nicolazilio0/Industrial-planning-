@@ -57,7 +57,6 @@
         (capacity ?r - robot ?n - number) ; defines the capacity of a robot
         (prec ?n1 - number ?n2 - number) ; defines the precedence of a number
         (succ ?n1 - number ?n2 - number) ; defines the successor of a number
-        (max_capacity_for_robot ?r - robot ?n - number) ; defines the maximum capacity of a robot
 
         (max_capacity ?n - number ?r - robot) ; defines the maximum capacity of a robot
         (min_capacity ?n - number  ?r - robot) ; defines the minimum capacity of a robot
@@ -78,8 +77,8 @@
     )
 
     ; pick up a box
-    (:action pick_box_from_wa
-        :parameters (?r - robot ?b - box ?l - warehouse ?c0 - number ?c1 - number)
+    (:action pick_box_from_location
+        :parameters (?r - robot ?b - box ?l - location ?c0 - number ?c1 - number)
         :precondition (and (atr ?r ?l) (atbl ?b ?l) (capacity ?r ?c0) (not (max_capacity ?c0 ?r)) (succ ?c0 ?c1))
         :effect (and  (not (atbl ?b ?l)) (carries ?r ?b) (not (capacity ?r ?c0)) (capacity ?r ?c1) )
     )
