@@ -1,0 +1,41 @@
+[t=0.0742838s, 15092 KB] Solution found!
+[t=0.074324s, 15092 KB] Actual search time: 0.0089772s
+[t=0.0743658s, 15092 KB] Best plan:
+fill_box agv1 b1 tool1 centralwarehouse (1)
+fill_box agv1 b2 valve1 centralwarehouse (1)
+fill_box agv1 b3 bolt1 centralwarehouse (1)
+pick_box_from_location agv1 b1 centralwarehouse s0 s1 (1)
+pick_box_from_location agv1 b2 centralwarehouse s1 s2 (1)
+pick_box_from_location agv1 b3 centralwarehouse s2 s3 (1)
+move_box_and_robot agv1 centralwarehouse l1 b1 s3 (1)
+deliver_box_to_ws agv1 b2 ws1 l1 valve1 s3 s2 (1)
+empty_box agv1 b2 valve1 l1 ws1 (1)
+move_box_and_robot agv1 l1 centralwarehouse b1 s2 (1)
+valve_acquired ws1 valve1 (1)
+move_box_and_robot agv1 centralwarehouse l2 b1 s2 (1)
+deliver_box_to_ws agv1 b1 ws2 l2 tool1 s2 s1 (1)
+empty_box agv1 b1 tool1 l2 ws2 (1)
+tool_acquired ws2 tool1 (1)
+deliver_box_to_ws agv1 b3 ws2 l2 bolt1 s1 s0 (1)
+empty_box agv1 b3 bolt1 l2 ws2 (1)
+bolt_acquired ws2 bolt1 (1)
+move_robot agv1 l2 centralwarehouse s0 (1)
+fill_box agv1 b1 bolt2 centralwarehouse (1)
+pick_box_from_location agv1 b1 centralwarehouse s0 s1 (1)
+move_box_and_robot agv1 centralwarehouse l3 b1 s1 (1)
+deliver_box_to_ws agv1 b1 ws3 l3 bolt2 s1 s0 (1)
+empty_box agv1 b1 bolt2 l3 ws3 (1)
+bolt_acquired ws3 bolt2 (1)
+[t=0.0743658s, 15092 KB] Plan length: 25 step(s).
+[t=0.0743658s, 15092 KB] Plan cost: 25
+[t=0.0743658s, 15092 KB] Expanded 67 state(s).
+[t=0.0743658s, 15092 KB] Reopened 0 state(s).
+[t=0.0743658s, 15092 KB] Evaluated 68 state(s).
+[t=0.0743658s, 15092 KB] Evaluations: 136
+[t=0.0743658s, 15092 KB] Generated 2978 state(s).
+[t=0.0743658s, 15092 KB] Dead ends: 0 state(s).
+[t=0.0743658s, 15092 KB] Number of registered states: 68
+[t=0.0743658s, 15092 KB] Int hash set load factor: 68/128 = 0.53125
+[t=0.0743658s, 15092 KB] Int hash set resizes: 7
+[t=0.0743658s, 15092 KB] Search time: 0.0091015s
+[t=0.0743658s, 15092 KB] Total time: 0.0743658s

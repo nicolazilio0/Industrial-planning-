@@ -1,0 +1,127 @@
+Panda says: SOLUTION
+============ global ============
+randomseed     = 42
+peak memory    = 84310952
+planner result = SOLUTION
+============ properties ============
+acyclic                  = false
+mostly acyclic           = false
+regular                  = false
+tail recursive           = true
+totally ordered          = true
+last task in all methods = true
+============ problem ============
+number of constants                  = 0
+number of predicates                 = 104
+number of actions                    = 185
+number of abstract actions           = 41
+number of primitive actions          = 144
+number of methods                    = 86
+number of primitive shop actions     = 34
+number of primitive non-shop actions = 110
+size of largest method               = 30
+average method size                  = 3
+============ progression ============
+status                 = solved
+aStar                  = 1
+heuristic              = hhRelataxedComposition-with-hFF-EQ
+numSearchNodes         = 119
+numPrimTasks           = 60
+numShopTasks           = 0
+numDecompositions      = 21
+findShortestPlan       = 0
+foundShortestPlanAfter = 16
+foundFirstPlanAfter    = 16
+foundPlans             = 1
+
+----------------- TIMINGS -----------------
+============ total ============
+total = 1718
+============ parsing ============
+total                         = 607
+file parser                   = 299
+sort expansion                = 119
+closed world assumption       = 66
+inherit preconditions         = 0
+shop methods                  = 15
+eliminate identical variables = 29
+strip domain of hybridity     = 47
+flatten formula               = 32
+============ preprocessing ============
+total                                      = 858
+compile negative preconditions             = 22
+compile unit methods                       = 0
+split parameter                            = 24
+expand choiceless abstract tasks           = 88
+compile methods with identical tasks       = 0
+removing unnecessary predicates            = 59
+lifted reachabiltiy analysis               = 47
+grounded planning graph analysis           = 269
+grounded task decomposition graph analysis = 264
+grounding                                  = 68
+create artificial top task                 = 4
+============ progression ============
+searchTime = 16
+
+#1 "30 problem:05:number of primitive actions"="144";"30 problem:01:number of constants"="0";"30 problem:04:number of abstract actions"="41";"02 properties:04:tail recursive"="true";"30 progression:04:numSearchNodes"="119";"30 progression:06:numPrimTasks"="60";"00 global:80:peak memory"="84310952";"30 progression:93:foundFirstPlanAfter"="16";"02 properties:02:mostly acyclic"="false";"30 problem:06:number of methods"="86";"30 problem:07:number of primitive shop actions"="34";"02 properties:05:totally ordered"="true";"02 properties:06:last task in all methods"="true";"30 problem:03:number of actions"="185";"30 problem:08:number of primitive non-shop actions"="110";"30 problem:02:number of predicates"="104";"30 progression:01:status"="solved";"30 progression:03:heuristic"="hhRelataxedComposition-with-hFF-EQ";"30 problem:10:average method size"="3";"02 properties:03:regular"="false";"30 problem:09:size of largest method"="30";"30 progression:08:numDecompositions"="21";"00 global:90:planner result"="SOLUTION";"02 properties:01:acyclic"="false";"30 progression:02:aStar"="1";"30 progression:92:foundShortestPlanAfter"="16";"00 global:02:randomseed"="42";"30 progression:07:numShopTasks"="0";"30 progression:91:findShortestPlan"="0";"30 progression:94:foundPlans"="1";"01 parsing:01:file parser"="299";"01 parsing:08:flatten formula"="32";"02 preprocessing:07:compile methods with identical tasks"="0";"01 parsing:07:strip domain of hybridity"="47";"02 preprocessing:08:removing unnecessary predicates"="59";"01 parsing:03:closed world assumption"="66";"02 preprocessing:11:lifted reachabiltiy analysis"="47";"01 parsing:02:sort expansion"="119";"01 parsing:00:total"="607";"30 progression:01:searchTime"="16";"01 parsing:04:inherit preconditions"="0";"02 preprocessing:01:compile negative preconditions"="22";"00 total:00:total"="1718";"02 preprocessing:12:grounded planning graph analysis"="269";"02 preprocessing:02:compile unit methods"="0";"02 preprocessing:23:grounded task decomposition graph analysis"="264";"02 preprocessing:04:split parameter"="24";"01 parsing:05:shop methods"="15";"01 parsing:06:eliminate identical variables"="29";"02 preprocessing:05:expand choiceless abstract tasks"="88";"02 preprocessing:00:total"="858";"02 preprocessing:99:create artificial top task"="4";"02 preprocessing:84:grounding"="68"
+SOLUTION SEQUENCE
+0: fill_box(agv1,b2,bolt1,centralwarehouse)
+1: pick_box_from_location(agv1,b2,centralwarehouse,s0,s1)
+2: SHOP_methodmove_robot_box_to_location_equal_6_precondition(l3,l3)
+3: move_box_and_robot(agv1,centralwarehouse,l3,b2,s1)
+4: deliver_box_to_ws(agv1,b2,ws3,l3,bolt1,s1,s0)
+5: empty_box(agv1,b2,bolt1,l3,ws3)
+6: SHOP_methodmove_to_warehouse_equal_7_precondition(centralwarehouse,centralwarehouse)
+7: move_robot(agv1,l3,centralwarehouse,s0)
+8: fill_box(drone2,b1,valve2,centralwarehouse)
+9: pick_box_from_location(drone2,b1,centralwarehouse,s0,s1)
+10: SHOP_methodmove_robot_box_to_location_different_5_precondition(l4,l3)
+11: move_box_and_robot(drone2,centralwarehouse,l3,b1,s1)
+12: SHOP_methodmove_robot_box_to_location_equal_6_precondition(l4,l4)
+13: move_box_and_robot(drone2,l3,l4,b1,s1)
+14: deliver_box_to_ws(drone2,b1,ws4,l4,valve2,s1,s0)
+15: empty_box(drone2,b1,valve2,l4,ws4)
+16: SHOP_methodmove_to_warehouse_differnt_8_precondition(l3,centralwarehouse)
+17: move_robot(drone2,l4,l3,s0)
+18: SHOP_methodmove_to_warehouse_equal_7_precondition(centralwarehouse,centralwarehouse)
+19: move_robot(drone2,l3,centralwarehouse,s0)
+20: fill_box(agv1,b3,tool3,centralwarehouse)
+21: pick_box_from_location(agv1,b3,centralwarehouse,s0,s1)
+22: SHOP_methodmove_robot_box_to_location_different_5_precondition(l4,l3)
+23: move_box_and_robot(agv1,centralwarehouse,l3,b3,s1)
+24: SHOP_methodmove_robot_box_to_location_equal_6_precondition(l4,l4)
+25: move_box_and_robot(agv1,l3,l4,b3,s1)
+26: deliver_box_to_ws(agv1,b3,ws4,l4,tool3,s1,s0)
+27: empty_box(agv1,b3,tool3,l4,ws4)
+28: SHOP_methodmove_to_warehouse_differnt_8_precondition(l3,centralwarehouse)
+29: move_robot(agv1,l4,l3,s0)
+30: SHOP_methodmove_to_warehouse_equal_7_precondition(centralwarehouse,centralwarehouse)
+31: move_robot(agv1,l3,centralwarehouse,s0)
+32: fill_box(drone1,b4,bolt4,centralwarehouse)
+33: pick_box_from_location(drone1,b4,centralwarehouse,s0,s1)
+34: SHOP_methodmove_robot_box_to_location_different_5_precondition(l5,l1)
+35: move_box_and_robot(drone1,centralwarehouse,l1,b4,s1)
+36: SHOP_methodmove_robot_box_to_location_different_5_precondition(l5,l6)
+37: move_box_and_robot(drone1,l1,l6,b4,s1)
+38: SHOP_methodmove_robot_box_to_location_equal_6_precondition(l5,l5)
+39: move_box_and_robot(drone1,l6,l5,b4,s1)
+40: deliver_box_to_ws(drone1,b4,ws6,l5,bolt4,s1,s0)
+41: empty_box(drone1,b4,bolt4,l5,ws6)
+42: SHOP_methodmove_to_warehouse_differnt_8_precondition(l4,centralwarehouse)
+43: move_robot(drone1,l5,l4,s0)
+44: SHOP_methodmove_to_warehouse_differnt_8_precondition(l3,centralwarehouse)
+45: move_robot(drone1,l4,l3,s0)
+46: SHOP_methodmove_to_warehouse_equal_7_precondition(centralwarehouse,centralwarehouse)
+47: move_robot(drone1,l3,centralwarehouse,s0)
+48: fill_box(agv1,b5,valve5,centralwarehouse)
+49: pick_box_from_location(agv1,b5,centralwarehouse,s0,s1)
+50: SHOP_methodmove_robot_box_to_location_different_5_precondition(l6,l1)
+51: move_box_and_robot(agv1,centralwarehouse,l1,b5,s1)
+52: SHOP_methodmove_robot_box_to_location_equal_6_precondition(l6,l6)
+53: move_box_and_robot(agv1,l1,l6,b5,s1)
+54: deliver_box_to_ws(agv1,b5,ws10,l6,valve5,s1,s0)
+55: empty_box(agv1,b5,valve5,l6,ws10)
+56: SHOP_methodmove_to_warehouse_differnt_8_precondition(l1,centralwarehouse)
+57: move_robot(agv1,l6,l1,s0)
+58: SHOP_methodmove_to_warehouse_equal_7_precondition(centralwarehouse,centralwarehouse)
+59: move_robot(agv1,l1,centralwarehouse,s0)

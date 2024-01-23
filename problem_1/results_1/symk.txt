@@ -1,0 +1,50 @@
+[t=0.0511132s, 14112 KB] Solution found!
+[t=0.0511484s, 14112 KB] Actual search time: 0.0147223s
+[t=0.0511894s, 14112 KB] Best plan:
+fill_box r1 b1 tool1 centralwarehouse (1)
+fill_box r1 b2 valve1 centralwarehouse (1)
+fill_box r1 b3 bolt1 centralwarehouse (1)
+pick_box_from_location r1 b1 centralwarehouse (1)
+move_box_and_robot r1 centralwarehouse l2 b1 (1)
+deliver_box_to_ws r1 b1 ws2 l2 tool1 (1)
+empty_box r1 b1 tool1 l2 ws2 (1)
+tool_acquired ws2 tool1 (1)
+move_robot r1 l2 centralwarehouse (1)
+pick_box_from_location r1 b2 centralwarehouse (1)
+move_box_and_robot r1 centralwarehouse l1 b2 (1)
+deliver_box_to_ws r1 b2 ws1 l1 valve1 (1)
+empty_box r1 b2 valve1 l1 ws1 (1)
+valve_acquired ws1 valve1 (1)
+move_robot r1 l1 centralwarehouse (1)
+pick_box_from_location r1 b3 centralwarehouse (1)
+move_box_and_robot r1 centralwarehouse l2 b3 (1)
+move_box_and_robot r1 l2 centralwarehouse b3 (1)
+move_box_and_robot r1 centralwarehouse l3 b3 (1)
+deliver_box_to_ws r1 b3 ws3 l3 bolt1 (1)
+move_robot r1 l3 centralwarehouse (1)
+move_robot r1 centralwarehouse l2 (1)
+pick_box_from_location r1 b3 l2 (1)
+deliver_box_to_ws r1 b3 ws2 l2 bolt1 (1)
+empty_box r1 b3 bolt1 l2 ws2 (1)
+bolt_acquired ws2 bolt1 (1)
+move_robot r1 l2 centralwarehouse (1)
+pick_box_from_location r1 b3 centralwarehouse (1)
+move_box_and_robot r1 centralwarehouse l3 b3 (1)
+fill_box r1 b3 bolt1 l3 (1)
+deliver_box_to_ws r1 b3 ws3 l3 bolt1 (1)
+empty_box r1 b3 bolt1 l3 ws3 (1)
+move_robot r1 l3 centralwarehouse (1)
+bolt_acquired ws3 bolt1 (1)
+[t=0.0511894s, 14112 KB] Plan length: 34 step(s).
+[t=0.0511894s, 14112 KB] Plan cost: 34
+[t=0.0511894s, 14112 KB] Expanded 217 state(s).
+[t=0.0511894s, 14112 KB] Reopened 0 state(s).
+[t=0.0511894s, 14112 KB] Evaluated 218 state(s).
+[t=0.0511894s, 14112 KB] Evaluations: 436
+[t=0.0511894s, 14112 KB] Generated 7612 state(s).
+[t=0.0511894s, 14112 KB] Dead ends: 0 state(s).
+[t=0.0511894s, 14112 KB] Number of registered states: 218
+[t=0.0511894s, 14112 KB] Int hash set load factor: 218/256 = 0.851562
+[t=0.0511894s, 14112 KB] Int hash set resizes: 8
+[t=0.0511894s, 14112 KB] Search time: 0.0148306s
+[t=0.0511894s, 14112 KB] Total time: 0.0511894s

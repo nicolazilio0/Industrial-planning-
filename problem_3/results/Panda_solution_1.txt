@@ -1,0 +1,91 @@
+Panda says: SOLUTION
+============ global ============
+randomseed     = 42
+peak memory    = 63027040
+planner result = SOLUTION
+============ properties ============
+acyclic                  = false
+mostly acyclic           = false
+regular                  = false
+tail recursive           = true
+totally ordered          = true
+last task in all methods = true
+============ problem ============
+number of constants                  = 0
+number of predicates                 = 36
+number of actions                    = 39
+number of abstract actions           = 6
+number of primitive actions          = 33
+number of methods                    = 13
+number of primitive shop actions     = 8
+number of primitive non-shop actions = 25
+size of largest method               = 16
+average method size                  = 4
+============ progression ============
+status                 = solved
+aStar                  = 1
+heuristic              = hhRelataxedComposition-with-hFF-EQ
+numSearchNodes         = 44
+numPrimTasks           = 24
+numShopTasks           = 0
+numDecompositions      = 7
+findShortestPlan       = 0
+foundShortestPlanAfter = 6
+foundFirstPlanAfter    = 6
+foundPlans             = 1
+
+----------------- TIMINGS -----------------
+============ total ============
+total = 1102
+============ parsing ============
+total                         = 542
+file parser                   = 284
+sort expansion                = 96
+closed world assumption       = 52
+inherit preconditions         = 0
+shop methods                  = 15
+eliminate identical variables = 27
+strip domain of hybridity     = 37
+flatten formula               = 29
+============ preprocessing ============
+total                                      = 482
+compile negative preconditions             = 20
+compile unit methods                       = 0
+split parameter                            = 19
+expand choiceless abstract tasks           = 56
+compile methods with identical tasks       = 0
+removing unnecessary predicates            = 16
+lifted reachabiltiy analysis               = 43
+grounded planning graph analysis           = 163
+grounded task decomposition graph analysis = 107
+grounding                                  = 41
+create artificial top task                 = 2
+============ progression ============
+searchTime = 6
+
+#1 "30 problem:05:number of primitive actions"="33";"30 problem:01:number of constants"="0";"30 problem:04:number of abstract actions"="6";"02 properties:04:tail recursive"="true";"30 progression:04:numSearchNodes"="44";"30 progression:06:numPrimTasks"="24";"00 global:80:peak memory"="63027040";"30 progression:93:foundFirstPlanAfter"="6";"02 properties:02:mostly acyclic"="false";"30 problem:06:number of methods"="13";"30 problem:07:number of primitive shop actions"="8";"02 properties:05:totally ordered"="true";"02 properties:06:last task in all methods"="true";"30 problem:03:number of actions"="39";"30 problem:08:number of primitive non-shop actions"="25";"30 problem:02:number of predicates"="36";"30 progression:01:status"="solved";"30 progression:03:heuristic"="hhRelataxedComposition-with-hFF-EQ";"30 problem:10:average method size"="4";"02 properties:03:regular"="false";"30 problem:09:size of largest method"="16";"30 progression:08:numDecompositions"="7";"00 global:90:planner result"="SOLUTION";"02 properties:01:acyclic"="false";"30 progression:02:aStar"="1";"30 progression:92:foundShortestPlanAfter"="6";"00 global:02:randomseed"="42";"30 progression:07:numShopTasks"="0";"30 progression:91:findShortestPlan"="0";"30 progression:94:foundPlans"="1";"01 parsing:01:file parser"="284";"01 parsing:08:flatten formula"="29";"02 preprocessing:07:compile methods with identical tasks"="0";"01 parsing:07:strip domain of hybridity"="37";"02 preprocessing:08:removing unnecessary predicates"="16";"01 parsing:03:closed world assumption"="52";"02 preprocessing:11:lifted reachabiltiy analysis"="43";"01 parsing:02:sort expansion"="96";"01 parsing:00:total"="542";"30 progression:01:searchTime"="6";"01 parsing:04:inherit preconditions"="0";"02 preprocessing:01:compile negative preconditions"="20";"00 total:00:total"="1102";"02 preprocessing:12:grounded planning graph analysis"="163";"02 preprocessing:02:compile unit methods"="0";"02 preprocessing:23:grounded task decomposition graph analysis"="107";"02 preprocessing:04:split parameter"="19";"01 parsing:05:shop methods"="15";"01 parsing:06:eliminate identical variables"="27";"02 preprocessing:05:expand choiceless abstract tasks"="56";"02 preprocessing:00:total"="482";"02 preprocessing:99:create artificial top task"="2";"02 preprocessing:84:grounding"="41"
+SOLUTION SEQUENCE
+0: fill_box(agv1,b2,bolt1,centralwarehouse)
+1: pick_box_from_location(agv1,b2,centralwarehouse,s0,s1)
+2: SHOP_methodmove_robot_box_to_location_different_5_precondition(l4,l3)
+3: move_box_and_robot(agv1,centralwarehouse,l3,b2,s1)
+4: SHOP_methodmove_robot_box_to_location_equal_6_precondition(l4,l4)
+5: move_box_and_robot(agv1,l3,l4,b2,s1)
+6: deliver_box_to_ws(agv1,b2,ws4,l4,bolt1,s1,s0)
+7: empty_box(agv1,b2,bolt1,l4,ws4)
+8: SHOP_methodmove_to_warehouse_differnt_8_precondition(l3,centralwarehouse)
+9: move_robot(agv1,l4,l3,s0)
+10: SHOP_methodmove_to_warehouse_equal_7_precondition(centralwarehouse,centralwarehouse)
+11: move_robot(agv1,l3,centralwarehouse,s0)
+12: fill_box(agv1,b1,valve2,centralwarehouse)
+13: pick_box_from_location(agv1,b1,centralwarehouse,s0,s1)
+14: SHOP_methodmove_robot_box_to_location_different_5_precondition(l4,l3)
+15: move_box_and_robot(agv1,centralwarehouse,l3,b1,s1)
+16: SHOP_methodmove_robot_box_to_location_equal_6_precondition(l4,l4)
+17: move_box_and_robot(agv1,l3,l4,b1,s1)
+18: deliver_box_to_ws(agv1,b1,ws4,l4,valve2,s1,s0)
+19: empty_box(agv1,b1,valve2,l4,ws4)
+20: SHOP_methodmove_to_warehouse_differnt_8_precondition(l3,centralwarehouse)
+21: move_robot(agv1,l4,l3,s0)
+22: SHOP_methodmove_to_warehouse_equal_7_precondition(centralwarehouse,centralwarehouse)
+23: move_robot(agv1,l3,centralwarehouse,s0)

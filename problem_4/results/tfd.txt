@@ -1,0 +1,37 @@
+Solution with original makespan 64.7 found (ignoring no-moving-targets-rule).
+Plan length: 31 step(s).
+Makespan   : 64.374
+Rescheduled Makespan   : 64.374
+Search time: 2.19 seconds - Walltime: 2.38604 seconds
+Total time: 2.27 seconds - Walltime: 2.48666 seconds
+0.00100000: (fill_box drone1 b6 tool3 centralwarehouse) [2.00000000]
+2.01100000: (fill_box drone1 b5 tool2 centralwarehouse) [2.00000000]
+4.02100000: (fill_box drone1 b4 tool1 centralwarehouse) [2.00000000]
+6.03100000: (pick_box_from_location drone1 b4 centralwarehouse s0 s1 s3) [1.00000000]
+7.04100000: (fill_box drone1 b2 bolt6 centralwarehouse) [2.00000000]
+9.05100000: (move_box_and_robot drone1 centralwarehouse l2 b4 s1 s0) [4.00000000]
+13.06100000: (move_box_and_robot drone1 l2 centralwarehouse b4 s1 s0) [4.00000000]
+17.07100000: (pick_box_from_location drone1 b2 centralwarehouse s1 s2 s3) [1.00000000]
+18.08100000: (move_box_and_robot drone1 centralwarehouse l2 b4 s2 s0) [4.00000000]
+22.09100000: (deliver_box_to_ws drone1 b2 ws2 l2 bolt6 s2 s1 s0) [1.00000000]
+23.10100000: (empty_box drone1 b2 bolt6 l2 ws2) [2.00000000]
+25.11100000: (bolt_acquired ws2 bolt6) [0.10000000]
+25.11200000: (move_box_and_robot drone1 l2 centralwarehouse b4 s1 s0) [4.00000000]
+29.12200000: (fill_box drone1 b1 bolt1 centralwarehouse) [2.00000000]
+31.13200000: (pick_box_from_location drone1 b1 centralwarehouse s1 s2 s3) [1.00000000]
+32.14200000: (move_box_and_robot drone1 centralwarehouse l3 b1 s2 s0) [4.00000000]
+36.15200000: (deliver_box_to_ws drone1 b1 ws3 l3 bolt1 s2 s1 s0) [1.00000000]
+37.16200000: (empty_box drone1 b1 bolt1 l3 ws3) [2.00000000]
+39.17200000: (bolt_acquired ws3 bolt1) [0.10000000]
+39.17300000: (move_box_and_robot drone1 l3 centralwarehouse b4 s1 s0) [4.00000000]
+43.18300000: (move_box_and_robot drone1 centralwarehouse l2 b4 s1 s0) [4.00000000]
+47.19300000: (deliver_box_to_ws drone1 b4 ws2 l2 tool1 s1 s0 s0) [1.00000000]
+48.20300000: (empty_box drone1 b4 tool1 l2 ws2) [2.00000000]
+50.21300000: (tool_acquired ws2 tool1) [0.10000000]
+50.21400000: (move_robot drone1 l2 centralwarehouse s0) [4.00000000]
+54.22400000: (fill_box drone1 b3 valve3 centralwarehouse) [2.00000000]
+56.23400000: (pick_box_from_location drone1 b3 centralwarehouse s0 s1 s3) [1.00000000]
+57.24400000: (move_box_and_robot drone1 centralwarehouse l1 b3 s1 s0) [4.00000000]
+61.25400000: (deliver_box_to_ws drone1 b3 ws1 l1 valve3 s1 s0 s0) [1.00000000]
+62.26400000: (empty_box drone1 b3 valve3 l1 ws1) [2.00000000]
+64.27400000: (valve_acquired ws1 valve3) [0.10000000]

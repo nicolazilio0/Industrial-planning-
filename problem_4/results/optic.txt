@@ -1,0 +1,35 @@
+; Plan found with metric 60.120
+; States evaluated so far: 162
+; States pruned based on pre-heuristic cost lower bound: 0
+; Time 0.83
+0.000: (fill_box drone1 b1 bolt1 centralwarehouse)  [2.000]
+2.001: (pick_box_from_location drone1 b1 centralwarehouse s0 s1 s3)  [1.000]
+3.002: (fill_box drone1 b2 valve1 centralwarehouse)  [2.000]
+5.003: (fill_box drone1 b3 tool1 centralwarehouse)  [2.000]
+7.004: (pick_box_from_location drone1 b3 centralwarehouse s1 s2 s3)  [1.000]
+8.005: (pick_box_from_location drone1 b2 centralwarehouse s2 s3 s3)  [1.000]
+9.005: (move_box_and_robot drone1 centralwarehouse l2 b1 s3 s0)  [4.000]
+13.006: (deliver_box_to_ws drone1 b3 ws2 l2 tool1 s3 s2 s0)  [1.000]
+14.006: (move_box_and_robot drone1 l2 centralwarehouse b1 s2 s0)  [4.000]
+18.007: (move_box_and_robot drone1 centralwarehouse l1 b1 s2 s0)  [4.000]
+22.008: (deliver_box_to_ws drone1 b2 ws1 l1 valve1 s2 s1 s0)  [1.000]
+23.008: (move_box_and_robot drone1 l1 centralwarehouse b1 s1 s0)  [4.000]
+27.009: (move_box_and_robot drone1 centralwarehouse l2 b1 s1 s0)  [4.000]
+31.010: (empty_box drone1 b3 tool1 l2 ws2)  [2.000]
+33.011: (tool_acquired ws2 tool1)  [0.100]
+33.011: (deliver_box_to_ws drone1 b1 ws2 l2 bolt1 s1 s0 s0)  [1.000]
+34.012: (empty_box drone1 b1 bolt1 l2 ws2)  [2.000]
+36.012: (move_robot drone1 l2 centralwarehouse s0)  [4.000]
+36.013: (bolt_acquired ws2 bolt1)  [0.100]
+40.013: (fill_box drone1 b1 bolt2 centralwarehouse)  [2.000]
+42.014: (pick_box_from_location drone1 b1 centralwarehouse s0 s1 s3)  [1.000]
+43.015: (move_box_and_robot drone1 centralwarehouse l3 b1 s1 s0)  [4.000]
+47.016: (deliver_box_to_ws drone1 b1 ws3 l3 bolt2 s1 s0 s0)  [1.000]
+48.017: (empty_box drone1 b1 bolt2 l3 ws3)  [2.000]
+50.017: (move_robot drone1 l3 centralwarehouse s0)  [4.000]
+50.018: (bolt_acquired ws3 bolt2)  [0.100]
+54.018: (move_robot drone1 centralwarehouse l1 s0)  [4.000]
+58.019: (empty_box drone1 b2 valve1 l1 ws1)  [2.000]
+60.020: (valve_acquired ws1 valve1)  [0.100]
+
+ * All goal deadlines now no later than 60.120
