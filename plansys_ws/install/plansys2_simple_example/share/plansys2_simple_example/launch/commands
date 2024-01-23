@@ -1,0 +1,126 @@
+set instance agv1 agv
+set instance l1 location
+set instance l2 location
+set instance l3 location
+set instance l4 location
+set instance centralwarehouse warehouse
+set instance b1 box
+set instance b2 box
+set instance b3 box
+set instance b4 box
+set instance b5 box
+set instance b6 box
+set instance bolt1 bolt
+set instance bolt2 bolt
+set instance bolt3 bolt
+set instance bolt4 bolt
+set instance bolt5 bolt
+set instance bolt6 bolt
+set instance valve1 valve
+set instance valve2 valve
+set instance valve3 valve
+set instance valve4 valve
+set instance valve5 valve
+set instance valve6 valve
+set instance tool1 tool
+set instance tool2 tool
+set instance tool3 tool
+set instance tool4 tool
+set instance tool5 tool
+set instance tool6 tool
+set instance ws1 work_station
+set instance ws2 work_station
+set instance ws3  work_station
+set instance ws4 work_station
+set instance ws5 work_station
+set instance s0 num
+set instance s1 num
+set instance s2 num
+set instance s3 num
+
+set predicate (succ s0 s1)
+set predicate (succ s1 s2)
+set predicate (succ s2 s3)
+set predicate (prec s1 s0)
+set predicate (prec s2 s1)
+set predicate (prec s3 s2)
+set predicate (max_capacity s3 agv1)
+set predicate (min_capacity s0 agv1)
+set predicate (atr agv1 centralwarehouse)
+set predicate (capacity agv1 s0)
+set predicate (free l1)
+set predicate (free l2)
+set predicate (free l3)
+set predicate (free l4)
+set predicate (ats valve1 centralwarehouse)
+set predicate (ats valve2 centralwarehouse)
+set predicate (ats valve3 centralwarehouse)
+set predicate (ats valve4 centralwarehouse)
+set predicate (ats valve5 centralwarehouse)
+set predicate (ats valve6 centralwarehouse)
+set predicate (ats bolt1 centralwarehouse)
+set predicate (ats bolt2 centralwarehouse)
+set predicate (ats bolt3 centralwarehouse)
+set predicate (ats bolt4 centralwarehouse)
+set predicate (ats bolt5 centralwarehouse)
+set predicate (ats bolt6 centralwarehouse)
+set predicate (ats tool1 centralwarehouse)
+set predicate (ats tool2 centralwarehouse)
+set predicate (ats tool3 centralwarehouse)
+set predicate (ats tool4 centralwarehouse)
+set predicate (ats tool5 centralwarehouse)
+set predicate (ats tool6 centralwarehouse)
+set predicate (is_bolt bolt1)
+set predicate (is_bolt bolt2)
+set predicate (is_bolt bolt3)
+set predicate (is_bolt bolt4)
+set predicate (is_bolt bolt5)
+set predicate (is_bolt bolt6)
+set predicate (is_tool tool1)
+set predicate (is_tool tool2)
+set predicate (is_tool tool3)
+set predicate (is_tool tool4)
+set predicate (is_tool tool5)
+set predicate (is_tool tool6)
+set predicate (is_valve valve1)
+set predicate (is_valve valve2)
+set predicate (is_valve valve3)
+set predicate (is_valve valve4)
+set predicate (is_valve valve5)
+set predicate (is_valve valve6)
+set predicate (atbl b1 centralwarehouse)
+set predicate (atbl b2 centralwarehouse)
+set predicate (atbl b3 centralwarehouse)
+set predicate (atbl b4 centralwarehouse)
+set predicate (atbl b5 centralwarehouse)
+set predicate (atbl b6 centralwarehouse)
+set predicate (empty b1)
+set predicate (empty b2)
+set predicate (empty b3)
+set predicate (empty b4)
+set predicate (empty b5)
+set predicate (empty b6)
+set predicate (connected centralwarehouse l1)
+set predicate (connected centralwarehouse l2)
+set predicate (connected centralwarehouse l3)
+set predicate (connected l3 l4)
+set predicate (connected l4 l3)
+set predicate (connected l3 centralwarehouse)
+set predicate (connected l2 centralwarehouse)
+set predicate (connected l1 centralwarehouse)
+set predicate (atws ws1 l1)
+set predicate (atws ws2 l2)
+set predicate (atws ws3 l3)
+set predicate (atws ws4 l4)
+set predicate (atws ws5 l4)
+set predicate (non_busy agv1)
+set predicate (higher_than_min agv1 s0 s0)
+set predicate (higher_than_min agv1 s1 s0)
+set predicate (higher_than_min agv1 s2 s0)
+set predicate (higher_than_min agv1 s3 s0)
+set predicate (lower_than_max agv1 s3 s3)
+set predicate (lower_than_max agv1 s2 s3)
+set predicate (lower_than_max agv1 s1 s3)
+set predicate (lower_than_max agv1 s0 s3)
+
+set goal (and (has_bolt ws3) (has_tool ws2) (has_bolt ws2) (has_valve ws1))

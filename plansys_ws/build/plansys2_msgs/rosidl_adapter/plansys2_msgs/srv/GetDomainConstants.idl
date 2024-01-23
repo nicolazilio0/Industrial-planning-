@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from plansys2_msgs/srv/GetDomainConstants.srv
+// generated code does not contain a copyright notice
+
+
+module plansys2_msgs {
+  module srv {
+    struct GetDomainConstants_Request {
+      string type;
+    };
+    struct GetDomainConstants_Response {
+      boolean success;
+
+      sequence<string> constants;
+
+      string error_info;
+    };
+  };
+};

@@ -1,0 +1,6 @@
+-I/root/plansys_ws/src/ros2_planning_system/plansys2_tools/include
+-I/root/plansys_ws/src/ros2_planning_system/plansys2_tools
+-I/root/plansys_ws/build/plansys2_tools
+-o
+/root/plansys_ws/build/plansys2_tools/include/rqt_plansys2_knowledge/moc_RQTKnowledge.cpp
+/root/plansys_ws/src/ros2_planning_system/plansys2_tools/include/rqt_plansys2_knowledge/RQTKnowledge.hpp

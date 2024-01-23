@@ -1,0 +1,1258 @@
+begin_groups
+416
+group
+5
+0 1 atr 2 <agv1> <l1> 
+0 2 atr 2 <agv1> <l2> 
+0 3 atr 2 <agv1> <l3> 
+0 4 atr 2 <agv1> <l4> 
+0 0 atr 2 <agv1> <centralwarehouse> 
+group
+1
+1 0 capacity 2 <agv1> <s0> 
+group
+4
+1 0 capacity 2 <agv1> <s0> 
+1 1 capacity 2 <agv1> <s1> 
+1 2 capacity 2 <agv1> <s2> 
+1 3 capacity 2 <agv1> <s3> 
+group
+1
+1 0 capacity 2 <agv1> <s0> 
+group
+1
+412 0 non_busy 1 <agv1> 
+group
+1
+412 0 non_busy 1 <agv1> 
+group
+1
+256 0 contains 2 <b4> <valve3> 
+group
+1
+48 0 atbw 2 <b4> <ws2> 
+group
+1
+50 0 atbw 2 <b4> <ws4> 
+group
+1
+271 0 contains 2 <b5> <tool6> 
+group
+1
+298 0 empty 1 <b3> 
+group
+1
+166 0 box_delivered 2 <b3> <ws5> 
+group
+1
+36 0 atbw 2 <b1> <ws5> 
+group
+1
+282 0 contains 2 <b6> <bolt5> 
+group
+1
+111 0 ats 2 <tool4> <l4> 
+group
+1
+297 0 empty 1 <b2> 
+group
+1
+131 0 ats 2 <valve2> <l4> 
+group
+1
+242 0 contains 2 <b4> <bolt1> 
+group
+1
+68 0 ats 2 <bolt2> <l1> 
+group
+1
+45 0 atbw 2 <b3> <ws4> 
+group
+1
+70 0 ats 2 <bolt2> <l3> 
+group
+1
+102 0 ats 2 <tool3> <centralwarehouse> 
+group
+1
+151 0 ats 2 <valve6> <l4> 
+group
+1
+69 0 ats 2 <bolt2> <l2> 
+group
+1
+150 0 ats 2 <valve6> <l3> 
+group
+1
+7 0 atbl 2 <b2> <centralwarehouse> 
+group
+1
+398 0 has_bolt 1 <ws2> 
+group
+1
+38 0 atbw 2 <b2> <ws2> 
+group
+1
+339 0 has 2 <ws2> <valve3> 
+group
+1
+37 0 atbw 2 <b2> <ws1> 
+group
+1
+291 0 contains 2 <b6> <valve2> 
+group
+1
+81 0 ats 2 <bolt4> <l4> 
+group
+1
+278 0 contains 2 <b6> <bolt1> 
+group
+1
+51 0 atbw 2 <b4> <ws5> 
+group
+1
+118 0 ats 2 <tool6> <l1> 
+group
+1
+247 0 contains 2 <b4> <bolt6> 
+group
+1
+120 0 ats 2 <tool6> <l3> 
+group
+1
+58 0 atbw 2 <b6> <ws2> 
+group
+1
+189 0 contains 2 <b1> <bolt2> 
+group
+1
+119 0 ats 2 <tool6> <l2> 
+group
+1
+96 0 ats 2 <tool1> <l4> 
+group
+1
+84 0 ats 2 <bolt5> <l2> 
+group
+1
+325 0 has 2 <ws2> <bolt1> 
+group
+1
+66 0 ats 2 <bolt1> <l4> 
+group
+1
+63 0 ats 2 <bolt1> <l1> 
+group
+1
+53 0 atbw 2 <b5> <ws2> 
+group
+1
+396 0 has 2 <ws5> <valve6> 
+group
+1
+55 0 atbw 2 <b5> <ws4> 
+group
+1
+377 0 has 2 <ws4> <valve5> 
+group
+1
+251 0 contains 2 <b4> <tool4> 
+group
+1
+61 0 atbw 2 <b6> <ws5> 
+group
+1
+403 0 has_tool 1 <ws2> 
+group
+1
+301 0 empty 1 <b6> 
+group
+1
+3 0 atbl 2 <b1> <l1> 
+group
+1
+125 0 ats 2 <valve1> <l3> 
+group
+1
+20 0 atbl 2 <b4> <l3> 
+group
+1
+407 0 has_valve 1 <ws1> 
+group
+1
+130 0 ats 2 <valve2> <l3> 
+group
+1
+210 0 contains 2 <b2> <bolt5> 
+group
+1
+330 0 has 2 <ws2> <bolt6> 
+group
+1
+152 0 box_delivered 2 <b1> <ws1> 
+group
+1
+391 0 has 2 <ws5> <valve1> 
+group
+1
+361 0 has 2 <ws4> <bolt1> 
+group
+1
+67 0 ats 2 <bolt2> <centralwarehouse> 
+group
+1
+287 0 contains 2 <b6> <tool4> 
+group
+1
+331 0 has 2 <ws2> <tool1> 
+group
+1
+147 0 ats 2 <valve6> <centralwarehouse> 
+group
+1
+59 0 atbw 2 <b6> <ws3> 
+group
+1
+184 0 carries 2 <agv1> <b3> 
+group
+1
+13 0 atbl 2 <b3> <l1> 
+group
+1
+138 0 ats 2 <valve4> <l1> 
+group
+1
+279 0 contains 2 <b6> <bolt2> 
+group
+1
+334 0 has 2 <ws2> <tool4> 
+group
+1
+56 0 atbw 2 <b5> <ws5> 
+group
+1
+238 0 contains 2 <b3> <valve3> 
+group
+1
+190 0 contains 2 <b1> <bolt3> 
+group
+1
+10 0 atbl 2 <b2> <l3> 
+group
+1
+289 0 contains 2 <b6> <tool6> 
+group
+1
+133 0 ats 2 <valve3> <l1> 
+group
+1
+108 0 ats 2 <tool4> <l1> 
+group
+1
+104 0 ats 2 <tool3> <l2> 
+group
+1
+9 0 atbl 2 <b2> <l2> 
+group
+1
+162 0 box_delivered 2 <b3> <ws1> 
+group
+1
+117 0 ats 2 <tool6> <centralwarehouse> 
+group
+1
+134 0 ats 2 <valve3> <l2> 
+group
+1
+159 0 box_delivered 2 <b2> <ws3> 
+group
+1
+261 0 contains 2 <b5> <bolt2> 
+group
+1
+95 0 ats 2 <tool1> <l3> 
+group
+1
+366 0 has 2 <ws4> <bolt6> 
+group
+1
+404 0 has_tool 1 <ws3> 
+group
+1
+191 0 contains 2 <b1> <bolt4> 
+group
+1
+196 0 contains 2 <b1> <tool3> 
+group
+1
+205 0 contains 2 <b1> <valve6> 
+group
+1
+231 0 contains 2 <b3> <tool2> 
+group
+1
+145 0 ats 2 <valve5> <l3> 
+group
+1
+144 0 ats 2 <valve5> <l2> 
+group
+1
+78 0 ats 2 <bolt4> <l1> 
+group
+1
+34 0 atbw 2 <b1> <ws3> 
+group
+1
+369 0 has 2 <ws4> <tool3> 
+group
+1
+393 0 has 2 <ws5> <valve3> 
+group
+1
+25 0 atbl 2 <b5> <l3> 
+group
+1
+370 0 has 2 <ws4> <tool4> 
+group
+1
+122 0 ats 2 <valve1> <centralwarehouse> 
+group
+1
+24 0 atbl 2 <b5> <l2> 
+group
+1
+358 0 has 2 <ws3> <valve4> 
+group
+1
+17 0 atbl 2 <b4> <centralwarehouse> 
+group
+1
+76 0 ats 2 <bolt3> <l4> 
+group
+1
+227 0 contains 2 <b3> <bolt4> 
+group
+1
+199 0 contains 2 <b1> <tool6> 
+group
+1
+208 0 contains 2 <b2> <bolt3> 
+group
+1
+47 0 atbw 2 <b4> <ws1> 
+group
+1
+153 0 box_delivered 2 <b1> <ws2> 
+group
+1
+360 0 has 2 <ws3> <valve6> 
+group
+1
+221 0 contains 2 <b2> <valve4> 
+group
+1
+372 0 has 2 <ws4> <tool6> 
+group
+1
+254 0 contains 2 <b4> <valve1> 
+group
+1
+44 0 atbw 2 <b3> <ws3> 
+group
+1
+349 0 has 2 <ws3> <tool1> 
+group
+1
+214 0 contains 2 <b2> <tool3> 
+group
+1
+223 0 contains 2 <b2> <valve6> 
+group
+1
+121 0 ats 2 <tool6> <l4> 
+group
+1
+216 0 contains 2 <b2> <tool5> 
+group
+1
+310 0 has 2 <ws1> <bolt4> 
+group
+1
+86 0 ats 2 <bolt5> <l4> 
+group
+1
+60 0 atbw 2 <b6> <ws4> 
+group
+1
+324 0 has 2 <ws1> <valve6> 
+group
+1
+39 0 atbw 2 <b2> <ws3> 
+group
+1
+235 0 contains 2 <b3> <tool6> 
+group
+1
+394 0 has 2 <ws5> <valve4> 
+group
+1
+355 0 has 2 <ws3> <valve1> 
+group
+1
+132 0 ats 2 <valve3> <centralwarehouse> 
+group
+1
+212 0 contains 2 <b2> <tool1> 
+group
+1
+258 0 contains 2 <b4> <valve5> 
+group
+1
+101 0 ats 2 <tool2> <l4> 
+group
+1
+295 0 contains 2 <b6> <valve6> 
+group
+1
+100 0 ats 2 <tool2> <l3> 
+group
+1
+275 0 contains 2 <b5> <valve4> 
+group
+1
+99 0 ats 2 <tool2> <l2> 
+group
+1
+160 0 box_delivered 2 <b2> <ws4> 
+group
+1
+384 0 has 2 <ws5> <bolt6> 
+group
+1
+405 0 has_tool 1 <ws4> 
+group
+1
+218 0 contains 2 <b2> <valve1> 
+group
+1
+277 0 contains 2 <b5> <valve6> 
+group
+1
+359 0 has 2 <ws3> <valve5> 
+group
+1
+142 0 ats 2 <valve5> <centralwarehouse> 
+group
+1
+385 0 has 2 <ws5> <tool1> 
+group
+1
+401 0 has_bolt 1 <ws5> 
+group
+1
+246 0 contains 2 <b4> <bolt5> 
+group
+1
+163 0 box_delivered 2 <b3> <ws2> 
+group
+1
+319 0 has 2 <ws1> <valve1> 
+group
+1
+202 0 contains 2 <b1> <valve3> 
+group
+1
+91 0 ats 2 <bolt6> <l4> 
+group
+1
+240 0 contains 2 <b3> <valve5> 
+group
+1
+305 0 free 1 <l3> 
+group
+1
+22 0 atbl 2 <b5> <centralwarehouse> 
+group
+1
+33 0 atbw 2 <b1> <ws2> 
+group
+1
+266 0 contains 2 <b5> <tool1> 
+group
+1
+327 0 has 2 <ws2> <bolt3> 
+group
+1
+290 0 contains 2 <b6> <valve1> 
+group
+1
+35 0 atbw 2 <b1> <ws4> 
+group
+1
+304 0 free 1 <l2> 
+group
+1
+182 0 carries 2 <agv1> <b1> 
+group
+1
+126 0 ats 2 <valve1> <l4> 
+group
+1
+341 0 has 2 <ws2> <valve5> 
+group
+1
+344 0 has 2 <ws3> <bolt2> 
+group
+1
+272 0 contains 2 <b5> <valve1> 
+group
+1
+255 0 contains 2 <b4> <valve2> 
+group
+1
+106 0 ats 2 <tool3> <l4> 
+group
+1
+188 0 contains 2 <b1> <bolt1> 
+group
+1
+19 0 atbl 2 <b4> <l2> 
+group
+1
+11 0 atbl 2 <b2> <l4> 
+group
+1
+249 0 contains 2 <b4> <tool2> 
+group
+1
+378 0 has 2 <ws4> <valve6> 
+group
+1
+169 0 box_delivered 2 <b4> <ws3> 
+group
+1
+136 0 ats 2 <valve3> <l4> 
+group
+1
+161 0 box_delivered 2 <b2> <ws5> 
+group
+1
+129 0 ats 2 <valve2> <l2> 
+group
+1
+406 0 has_tool 1 <ws5> 
+group
+1
+75 0 ats 2 <bolt3> <l3> 
+group
+1
+73 0 ats 2 <bolt3> <l1> 
+group
+1
+74 0 ats 2 <bolt3> <l2> 
+group
+1
+308 0 has 2 <ws1> <bolt2> 
+group
+1
+31 0 atbl 2 <b6> <l4> 
+group
+1
+237 0 contains 2 <b3> <valve2> 
+group
+1
+30 0 atbl 2 <b6> <l3> 
+group
+1
+40 0 atbw 2 <b2> <ws4> 
+group
+1
+97 0 ats 2 <tool2> <centralwarehouse> 
+group
+1
+146 0 ats 2 <valve5> <l4> 
+group
+1
+321 0 has 2 <ws1> <valve3> 
+group
+1
+29 0 atbl 2 <b6> <l2> 
+group
+1
+114 0 ats 2 <tool5> <l2> 
+group
+1
+224 0 contains 2 <b3> <bolt1> 
+group
+1
+193 0 contains 2 <b1> <bolt6> 
+group
+1
+373 0 has 2 <ws4> <valve1> 
+group
+1
+26 0 atbl 2 <b5> <l4> 
+group
+1
+292 0 contains 2 <b6> <valve3> 
+group
+1
+43 0 atbw 2 <b3> <ws2> 
+group
+1
+85 0 ats 2 <bolt5> <l3> 
+group
+1
+83 0 ats 2 <bolt5> <l1> 
+group
+1
+148 0 ats 2 <valve6> <l1> 
+group
+1
+332 0 has 2 <ws2> <tool2> 
+group
+1
+94 0 ats 2 <tool1> <l2> 
+group
+1
+365 0 has 2 <ws4> <bolt5> 
+group
+1
+302 0 free 1 <centralwarehouse> 
+group
+1
+257 0 contains 2 <b4> <valve4> 
+group
+1
+65 0 ats 2 <bolt1> <l3> 
+group
+1
+307 0 has 2 <ws1> <bolt1> 
+group
+1
+197 0 contains 2 <b1> <tool4> 
+group
+1
+64 0 ats 2 <bolt1> <l2> 
+group
+1
+46 0 atbw 2 <b3> <ws5> 
+group
+1
+345 0 has 2 <ws3> <bolt3> 
+group
+1
+229 0 contains 2 <b3> <bolt6> 
+group
+1
+252 0 contains 2 <b4> <tool5> 
+group
+1
+328 0 has 2 <ws2> <bolt4> 
+group
+1
+5 0 atbl 2 <b1> <l3> 
+group
+1
+280 0 contains 2 <b6> <bolt3> 
+group
+1
+174 0 box_delivered 2 <b5> <ws3> 
+group
+1
+410 0 has_valve 1 <ws4> 
+group
+1
+248 0 contains 2 <b4> <tool1> 
+group
+1
+293 0 contains 2 <b6> <valve4> 
+group
+1
+351 0 has 2 <ws3> <tool3> 
+group
+1
+88 0 ats 2 <bolt6> <l1> 
+group
+1
+362 0 has 2 <ws4> <bolt2> 
+group
+1
+90 0 ats 2 <bolt6> <l3> 
+group
+1
+353 0 has 2 <ws3> <tool5> 
+group
+1
+397 0 has_bolt 1 <ws1> 
+group
+1
+233 0 contains 2 <b3> <tool4> 
+group
+1
+89 0 ats 2 <bolt6> <l2> 
+group
+1
+170 0 box_delivered 2 <b4> <ws4> 
+group
+1
+309 0 has 2 <ws1> <bolt3> 
+group
+1
+312 0 has 2 <ws1> <bolt6> 
+group
+1
+375 0 has 2 <ws4> <valve3> 
+group
+1
+283 0 contains 2 <b6> <bolt6> 
+group
+1
+140 0 ats 2 <valve4> <l3> 
+group
+1
+381 0 has 2 <ws5> <bolt3> 
+group
+1
+27 0 atbl 2 <b6> <centralwarehouse> 
+group
+1
+156 0 box_delivered 2 <b1> <ws5> 
+group
+1
+225 0 contains 2 <b3> <bolt2> 
+group
+1
+284 0 contains 2 <b6> <tool1> 
+group
+1
+103 0 ats 2 <tool3> <l1> 
+group
+1
+315 0 has 2 <ws1> <tool3> 
+group
+1
+335 0 has 2 <ws2> <tool5> 
+group
+1
+8 0 atbl 2 <b2> <l1> 
+group
+1
+395 0 has 2 <ws5> <valve5> 
+group
+1
+135 0 ats 2 <valve3> <l3> 
+group
+1
+316 0 has 2 <ws1> <tool4> 
+group
+1
+262 0 contains 2 <b5> <bolt3> 
+group
+1
+265 0 contains 2 <b5> <bolt6> 
+group
+1
+387 0 has 2 <ws5> <tool3> 
+group
+1
+388 0 has 2 <ws5> <tool4> 
+group
+1
+300 0 empty 1 <b5> 
+group
+1
+157 0 box_delivered 2 <b2> <ws1> 
+group
+1
+28 0 atbl 2 <b6> <l1> 
+group
+1
+62 0 ats 2 <bolt1> <centralwarehouse> 
+group
+1
+402 0 has_tool 1 <ws1> 
+group
+1
+268 0 contains 2 <b5> <tool3> 
+group
+1
+21 0 atbl 2 <b4> <l4> 
+group
+1
+376 0 has 2 <ws4> <valve4> 
+group
+1
+269 0 contains 2 <b5> <tool4> 
+group
+1
+143 0 ats 2 <valve5> <l1> 
+group
+1
+80 0 ats 2 <bolt4> <l3> 
+group
+1
+2 0 atbl 2 <b1> <centralwarehouse> 
+group
+1
+23 0 atbl 2 <b5> <l1> 
+group
+1
+178 0 box_delivered 2 <b6> <ws2> 
+group
+1
+213 0 contains 2 <b2> <tool2> 
+group
+1
+346 0 has 2 <ws3> <bolt4> 
+group
+1
+32 0 atbw 2 <b1> <ws1> 
+group
+1
+329 0 has 2 <ws2> <bolt5> 
+group
+1
+314 0 has 2 <ws1> <tool2> 
+group
+1
+173 0 box_delivered 2 <b5> <ws2> 
+group
+1
+367 0 has 2 <ws4> <tool1> 
+group
+1
+175 0 box_delivered 2 <b5> <ws4> 
+group
+1
+87 0 ats 2 <bolt6> <centralwarehouse> 
+group
+1
+172 0 box_delivered 2 <b5> <ws1> 
+group
+1
+116 0 ats 2 <tool5> <l4> 
+group
+1
+200 0 contains 2 <b1> <valve1> 
+group
+1
+209 0 contains 2 <b2> <bolt4> 
+group
+1
+181 0 box_delivered 2 <b6> <ws5> 
+group
+1
+386 0 has 2 <ws5> <tool2> 
+group
+1
+187 0 carries 2 <agv1> <b6> 
+group
+1
+12 0 atbl 2 <b3> <centralwarehouse> 
+group
+1
+137 0 ats 2 <valve4> <centralwarehouse> 
+group
+1
+371 0 has 2 <ws4> <tool5> 
+group
+1
+408 0 has_valve 1 <ws2> 
+group
+1
+338 0 has 2 <ws2> <valve2> 
+group
+1
+267 0 contains 2 <b5> <tool2> 
+group
+1
+42 0 atbw 2 <b3> <ws1> 
+group
+1
+204 0 contains 2 <b1> <valve5> 
+group
+1
+382 0 has 2 <ws5> <bolt4> 
+group
+1
+234 0 contains 2 <b3> <tool5> 
+group
+1
+217 0 contains 2 <b2> <tool6> 
+group
+1
+263 0 contains 2 <b5> <bolt4> 
+group
+1
+179 0 box_delivered 2 <b6> <ws3> 
+group
+1
+192 0 contains 2 <b1> <bolt5> 
+group
+1
+176 0 box_delivered 2 <b5> <ws5> 
+group
+1
+243 0 contains 2 <b4> <bolt2> 
+group
+1
+77 0 ats 2 <bolt4> <centralwarehouse> 
+group
+1
+185 0 carries 2 <agv1> <b4> 
+group
+1
+52 0 atbw 2 <b5> <ws1> 
+group
+1
+389 0 has 2 <ws5> <tool5> 
+group
+1
+222 0 contains 2 <b2> <valve5> 
+group
+1
+72 0 ats 2 <bolt3> <centralwarehouse> 
+group
+1
+409 0 has_valve 1 <ws3> 
+group
+1
+347 0 has 2 <ws3> <bolt5> 
+group
+1
+201 0 contains 2 <b1> <valve2> 
+group
+1
+123 0 ats 2 <valve1> <l1> 
+group
+1
+228 0 contains 2 <b3> <bolt5> 
+group
+1
+4 0 atbl 2 <b1> <l2> 
+group
+1
+323 0 has 2 <ws1> <valve5> 
+group
+1
+195 0 contains 2 <b1> <tool2> 
+group
+1
+18 0 atbl 2 <b4> <l1> 
+group
+1
+333 0 has 2 <ws2> <tool3> 
+group
+1
+154 0 box_delivered 2 <b1> <ws3> 
+group
+1
+124 0 ats 2 <valve1> <l2> 
+group
+1
+357 0 has 2 <ws3> <valve3> 
+group
+1
+374 0 has 2 <ws4> <valve2> 
+group
+1
+294 0 contains 2 <b6> <valve5> 
+group
+1
+399 0 has_bolt 1 <ws3> 
+group
+1
+128 0 ats 2 <valve2> <l1> 
+group
+1
+299 0 empty 1 <b4> 
+group
+1
+286 0 contains 2 <b6> <tool3> 
+group
+1
+82 0 ats 2 <bolt5> <centralwarehouse> 
+group
+1
+186 0 carries 2 <agv1> <b5> 
+group
+1
+167 0 box_delivered 2 <b4> <ws1> 
+group
+1
+326 0 has 2 <ws2> <bolt2> 
+group
+1
+220 0 contains 2 <b2> <valve3> 
+group
+1
+356 0 has 2 <ws3> <valve2> 
+group
+1
+276 0 contains 2 <b5> <valve5> 
+group
+1
+16 0 atbl 2 <b3> <l4> 
+group
+1
+311 0 has 2 <ws1> <bolt5> 
+group
+1
+141 0 ats 2 <valve4> <l4> 
+group
+1
+336 0 has 2 <ws2> <tool6> 
+group
+1
+15 0 atbl 2 <b3> <l3> 
+group
+1
+350 0 has 2 <ws3> <tool2> 
+group
+1
+343 0 has 2 <ws3> <bolt1> 
+group
+1
+113 0 ats 2 <tool5> <l1> 
+group
+1
+14 0 atbl 2 <b3> <l2> 
+group
+1
+139 0 ats 2 <valve4> <l2> 
+group
+1
+115 0 ats 2 <tool5> <l3> 
+group
+1
+383 0 has 2 <ws5> <bolt5> 
+group
+1
+183 0 carries 2 <agv1> <b2> 
+group
+1
+164 0 box_delivered 2 <b3> <ws3> 
+group
+1
+110 0 ats 2 <tool4> <l3> 
+group
+1
+219 0 contains 2 <b2> <valve2> 
+group
+1
+109 0 ats 2 <tool4> <l2> 
+group
+1
+244 0 contains 2 <b4> <bolt3> 
+group
+1
+180 0 box_delivered 2 <b6> <ws4> 
+group
+1
+177 0 box_delivered 2 <b6> <ws1> 
+group
+1
+264 0 contains 2 <b5> <bolt5> 
+group
+1
+206 0 contains 2 <b2> <bolt1> 
+group
+1
+93 0 ats 2 <tool1> <l1> 
+group
+1
+203 0 contains 2 <b1> <valve4> 
+group
+1
+320 0 has 2 <ws1> <valve2> 
+group
+1
+296 0 empty 1 <b1> 
+group
+1
+363 0 has 2 <ws4> <bolt3> 
+group
+1
+274 0 contains 2 <b5> <valve3> 
+group
+1
+149 0 ats 2 <valve6> <l2> 
+group
+1
+245 0 contains 2 <b4> <bolt4> 
+group
+1
+392 0 has 2 <ws5> <valve2> 
+group
+1
+348 0 has 2 <ws3> <bolt6> 
+group
+1
+250 0 contains 2 <b4> <tool3> 
+group
+1
+198 0 contains 2 <b1> <tool5> 
+group
+1
+259 0 contains 2 <b4> <valve6> 
+group
+1
+285 0 contains 2 <b6> <tool2> 
+group
+1
+379 0 has 2 <ws5> <bolt1> 
+group
+1
+226 0 contains 2 <b3> <bolt3> 
+group
+1
+79 0 ats 2 <bolt4> <l2> 
+group
+1
+273 0 contains 2 <b5> <valve2> 
+group
+1
+49 0 atbw 2 <b4> <ws3> 
+group
+1
+194 0 contains 2 <b1> <tool1> 
+group
+1
+71 0 ats 2 <bolt2> <l4> 
+group
+1
+41 0 atbw 2 <b2> <ws5> 
+group
+1
+211 0 contains 2 <b2> <bolt6> 
+group
+1
+260 0 contains 2 <b5> <bolt1> 
+group
+1
+239 0 contains 2 <b3> <valve4> 
+group
+1
+281 0 contains 2 <b6> <bolt4> 
+group
+1
+155 0 box_delivered 2 <b1> <ws4> 
+group
+1
+352 0 has 2 <ws3> <tool4> 
+group
+1
+253 0 contains 2 <b4> <tool6> 
+group
+1
+127 0 ats 2 <valve2> <centralwarehouse> 
+group
+1
+168 0 box_delivered 2 <b4> <ws2> 
+group
+1
+232 0 contains 2 <b3> <tool3> 
+group
+1
+241 0 contains 2 <b3> <valve6> 
+group
+1
+400 0 has_bolt 1 <ws4> 
+group
+1
+340 0 has 2 <ws2> <valve4> 
+group
+1
+215 0 contains 2 <b2> <tool4> 
+group
+1
+230 0 contains 2 <b3> <tool1> 
+group
+1
+322 0 has 2 <ws1> <valve4> 
+group
+1
+342 0 has 2 <ws2> <valve6> 
+group
+1
+112 0 ats 2 <tool5> <centralwarehouse> 
+group
+1
+354 0 has 2 <ws3> <tool6> 
+group
+1
+105 0 ats 2 <tool3> <l3> 
+group
+1
+57 0 atbw 2 <b6> <ws1> 
+group
+1
+107 0 ats 2 <tool4> <centralwarehouse> 
+group
+1
+165 0 box_delivered 2 <b3> <ws4> 
+group
+1
+207 0 contains 2 <b2> <bolt2> 
+group
+1
+317 0 has 2 <ws1> <tool5> 
+group
+1
+368 0 has 2 <ws4> <tool2> 
+group
+1
+236 0 contains 2 <b3> <valve1> 
+group
+1
+98 0 ats 2 <tool2> <l1> 
+group
+1
+158 0 box_delivered 2 <b2> <ws2> 
+group
+1
+288 0 contains 2 <b6> <tool5> 
+group
+1
+92 0 ats 2 <tool1> <centralwarehouse> 
+group
+1
+411 0 has_valve 1 <ws5> 
+group
+1
+313 0 has 2 <ws1> <tool1> 
+group
+1
+6 0 atbl 2 <b1> <l4> 
+group
+1
+318 0 has 2 <ws1> <tool6> 
+group
+1
+337 0 has 2 <ws2> <valve1> 
+group
+1
+364 0 has 2 <ws4> <bolt4> 
+group
+1
+380 0 has 2 <ws5> <bolt2> 
+group
+1
+171 0 box_delivered 2 <b4> <ws5> 
+group
+1
+270 0 contains 2 <b5> <tool5> 
+group
+1
+54 0 atbw 2 <b5> <ws3> 
+group
+1
+390 0 has 2 <ws5> <tool6> 
+group
+1
+306 0 free 1 <l4> 
+group
+1
+303 0 free 1 <l1> 
+end_groups

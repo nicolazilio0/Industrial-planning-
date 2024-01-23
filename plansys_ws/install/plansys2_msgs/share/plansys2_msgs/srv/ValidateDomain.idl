@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from plansys2_msgs/srv/ValidateDomain.srv
+// generated code does not contain a copyright notice
+
+
+module plansys2_msgs {
+  module srv {
+    struct ValidateDomain_Request {
+      string domain;
+    };
+    struct ValidateDomain_Response {
+      boolean success;
+
+      string error_info;
+    };
+  };
+};
