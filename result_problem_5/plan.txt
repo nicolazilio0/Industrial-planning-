@@ -1,0 +1,91 @@
+[plansys2_node-1] Found new plan:
+[plansys2_node-1] 0.00000000: (fill_box agv1 b6 tool3 centralwarehouse) [2.00000000]
+[plansys2_node-1] 2.01000000: (fill_box agv1 b5 tool2 centralwarehouse) [2.00000000]
+[plansys2_node-1] 4.02000000: (fill_box agv1 b4 tool1 centralwarehouse) [2.00000000]
+[plansys2_node-1] 6.03000000: (pick_box_from_location agv1 b4 centralwarehouse s0 s1 s3) [1.00000000]
+[plansys2_node-1] 7.04000000: (fill_box agv1 b2 bolt6 centralwarehouse) [2.00000000]
+[plansys2_node-1] 9.05000000: (move_box_and_robot agv1 centralwarehouse l2 b4 s1 s0) [4.00000000]
+[plansys2_node-1] 13.06000000: (move_box_and_robot agv1 l2 centralwarehouse b4 s1 s0) [4.00000000]
+[plansys2_node-1] 17.07000000: (pick_box_from_location agv1 b2 centralwarehouse s1 s2 s3) [1.00000000]
+[plansys2_node-1] 18.08000000: (move_box_and_robot agv1 centralwarehouse l2 b4 s2 s0) [4.00000000]
+[plansys2_node-1] 22.09000000: (deliver_box_to_ws agv1 b2 ws2 l2 bolt6 s2 s1 s0) [1.00000000]
+[plansys2_node-1] 23.10000000: (empty_box agv1 b2 bolt6 l2 ws2) [2.00000000]
+[plansys2_node-1] 25.11000000: (bolt_acquired ws2 bolt6) [0.10000000]
+[plansys2_node-1] 25.22000000: (move_box_and_robot agv1 l2 centralwarehouse b4 s1 s0) [4.00000000]
+[plansys2_node-1] 29.23000000: (fill_box agv1 b1 bolt1 centralwarehouse) [2.00000000]
+[plansys2_node-1] 31.24000000: (pick_box_from_location agv1 b1 centralwarehouse s1 s2 s3) [1.00000000]
+[plansys2_node-1] 32.25000000: (move_box_and_robot agv1 centralwarehouse l3 b1 s2 s0) [4.00000000]
+[plansys2_node-1] 36.26000000: (deliver_box_to_ws agv1 b1 ws3 l3 bolt1 s2 s1 s0) [1.00000000]
+[plansys2_node-1] 37.27000000: (empty_box agv1 b1 bolt1 l3 ws3) [2.00000000]
+[plansys2_node-1] 39.28000000: (bolt_acquired ws3 bolt1) [0.10000000]
+[plansys2_node-1] 39.39000000: (move_box_and_robot agv1 l3 centralwarehouse b4 s1 s0) [4.00000000]
+[plansys2_node-1] 43.40000000: (move_box_and_robot agv1 centralwarehouse l2 b4 s1 s0) [4.00000000]
+[plansys2_node-1] 47.41000000: (deliver_box_to_ws agv1 b4 ws2 l2 tool1 s1 s0 s0) [1.00000000]
+[plansys2_node-1] 48.42000000: (empty_box agv1 b4 tool1 l2 ws2) [2.00000000]
+[plansys2_node-1] 50.43000000: (tool_acquired ws2 tool1) [0.10000000]
+[plansys2_node-1] 50.54000000: (move_robot agv1 l2 centralwarehouse s0) [4.00000000]
+[plansys2_node-1] 54.55000000: (fill_box agv1 b3 valve3 centralwarehouse) [2.00000000]
+[plansys2_node-1] 56.56000000: (pick_box_from_location agv1 b3 centralwarehouse s0 s1 s3) [1.00000000]
+[plansys2_node-1] 57.57000000: (move_box_and_robot agv1 centralwarehouse l1 b3 s1 s0) [4.00000000]
+[plansys2_node-1] 61.58000000: (deliver_box_to_ws agv1 b3 ws1 l1 valve3 s1 s0 s0) [1.00000000]
+[plansys2_node-1] 62.59000000: (empty_box agv1 b3 valve3 l1 ws1) [2.00000000]
+[plansys2_node-1] 64.60000000: (valve_acquired ws1 valve3) [0.10000000]
+[plansys2_node-1] Rescheduled Plan:
+[plansys2_node-1] 0.00100000: (fill_box agv1 b6 tool3 centralwarehouse) [2.00000000]
+[plansys2_node-1] 2.01100000: (fill_box agv1 b5 tool2 centralwarehouse) [2.00000000]
+[plansys2_node-1] 4.02100000: (fill_box agv1 b4 tool1 centralwarehouse) [2.00000000]
+[plansys2_node-1] 6.03100000: (pick_box_from_location agv1 b4 centralwarehouse s0 s1 s3) [1.00000000]
+[plansys2_node-1] 7.04100000: (fill_box agv1 b2 bolt6 centralwarehouse) [2.00000000]
+[plansys2_node-1] 9.05100000: (move_box_and_robot agv1 centralwarehouse l2 b4 s1 s0) [4.00000000]
+[plansys2_node-1] 13.06100000: (move_box_and_robot agv1 l2 centralwarehouse b4 s1 s0) [4.00000000]
+[plansys2_node-1] 17.07100000: (pick_box_from_location agv1 b2 centralwarehouse s1 s2 s3) [1.00000000]
+[plansys2_node-1] 18.08100000: (move_box_and_robot agv1 centralwarehouse l2 b4 s2 s0) [4.00000000]
+[plansys2_node-1] 22.09100000: (deliver_box_to_ws agv1 b2 ws2 l2 bolt6 s2 s1 s0) [1.00000000]
+[plansys2_node-1] 23.10100000: (empty_box agv1 b2 bolt6 l2 ws2) [2.00000000]
+[plansys2_node-1] 25.11100000: (bolt_acquired ws2 bolt6) [0.10000000]
+[plansys2_node-1] 25.11200000: (move_box_and_robot agv1 l2 centralwarehouse b4 s1 s0) [4.00000000]
+[plansys2_node-1] 29.12200000: (fill_box agv1 b1 bolt1 centralwarehouse) [2.00000000]
+[plansys2_node-1] 31.13200000: (pick_box_from_location agv1 b1 centralwarehouse s1 s2 s3) [1.00000000]
+[plansys2_node-1] 32.14200000: (move_box_and_robot agv1 centralwarehouse l3 b1 s2 s0) [4.00000000]
+[plansys2_node-1] 36.15200000: (deliver_box_to_ws agv1 b1 ws3 l3 bolt1 s2 s1 s0) [1.00000000]
+[plansys2_node-1] 37.16200000: (empty_box agv1 b1 bolt1 l3 ws3) [2.00000000]
+[plansys2_node-1] 39.17200000: (bolt_acquired ws3 bolt1) [0.10000000]
+[plansys2_node-1] 39.17300000: (move_box_and_robot agv1 l3 centralwarehouse b4 s1 s0) [4.00000000]
+[plansys2_node-1] 43.18300000: (move_box_and_robot agv1 centralwarehouse l2 b4 s1 s0) [4.00000000]
+[plansys2_node-1] 47.19300000: (deliver_box_to_ws agv1 b4 ws2 l2 tool1 s1 s0 s0) [1.00000000]
+[plansys2_node-1] 48.20300000: (empty_box agv1 b4 tool1 l2 ws2) [2.00000000]
+[plansys2_node-1] 50.21300000: (tool_acquired ws2 tool1) [0.10000000]
+[plansys2_node-1] 50.21400000: (move_robot agv1 l2 centralwarehouse s0) [4.00000000]
+[plansys2_node-1] 54.22400000: (fill_box agv1 b3 valve3 centralwarehouse) [2.00000000]
+[plansys2_node-1] 56.23400000: (pick_box_from_location agv1 b3 centralwarehouse s0 s1 s3) [1.00000000]
+[plansys2_node-1] 57.24400000: (move_box_and_robot agv1 centralwarehouse l1 b3 s1 s0) [4.00000000]
+[plansys2_node-1] 61.25400000: (deliver_box_to_ws agv1 b3 ws1 l1 valve3 s1 s0 s0) [1.00000000]
+[plansys2_node-1] 62.26400000: (empty_box agv1 b3 valve3 l1 ws1) [2.00000000]
+[plansys2_node-1] 64.27400000: (valve_acquired ws1 valve3) [0.10000000]
+[plansys2_node-1] Solution with original makespan 64.7 found (ignoring no-moving-targets-rule).
+[plansys2_node-1] Plan length: 31 step(s).
+[plansys2_node-1] Makespan   : 64.374
+[plansys2_node-1] Rescheduled Makespan   : 64.374
+[plansys2_node-1] INIT
+[plansys2_node-1] Open list sizes (priorities): 730 (-26703),  2811 (0),  5868 (0),  15174 (0), 
+[plansys2_node-1] 
+[plansys2_node-1] Search Time: 6 sec.
+[plansys2_node-1] Expanded Nodes: 3396 state(s).
+[plansys2_node-1] Rate: 566.0 Nodes/s (over 6.0s) 566.0 Nodes/s (total average)
+[plansys2_node-1] Generated Nodes: 44017 state(s).
+[plansys2_node-1] Rate: 7336.2 Nodes/s (over 6.0s) 7336.2 Nodes/s (total average)
+[plansys2_node-1] Overall branching factor by list sizes: 12.9614
+[plansys2_node-1] Averaged overall branching factor: Mean 12.97 Std: 16.00 (Num: 3395)
+[plansys2_node-1] Branching factors by open list:
+[plansys2_node-1] Open List 0: Mean 1.65 Std: 1.22 (Num: 3395)
+[plansys2_node-1] Open List 1: Mean 1.58 Std: 1.06 (Num: 3395)
+[plansys2_node-1] Open List 2: Mean 2.57 Std: 2.91 (Num: 3395)
+[plansys2_node-1] Open List 3: Mean 7.16 Std: 11.83 (Num: 3395)
+[plansys2_node-1] OpenList sizes: 774 5373 8726 24307
+[plansys2_node-1] Heuristic Computations (per heuristic): 4831 Total: 4831
+[plansys2_node-1] Number of cache hits in heuristic (per heuristic): 1435 Total: 1435
+[plansys2_node-1] Best heuristic values of queues: [0: 0] [1: -1] [2: -1] [3: -1]
+[plansys2_node-1] 
+[plansys2_node-1] New solution has been found.
+[plansys2_node-1] Search time: 5.14 seconds - Walltime: 5.20787 seconds
+[plansys2_node-1] Total time: 5.24 seconds - Walltime: 5.30871 seconds

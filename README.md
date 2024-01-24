@@ -52,4 +52,8 @@ The planner should now execute the predefined plan
 
 
 
+https://github.com/nicolazilio0/Industrial-planning-/assets/67425578/07d9ab6e-15a9-476a-9079-3f9d0df7f044
+
+
+
 
