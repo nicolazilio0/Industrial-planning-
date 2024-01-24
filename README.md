@@ -2,12 +2,38 @@
 
 
 # PROBLEM 1
+used commands: 
+```
+  downward  --alias lama-first domain.pddl  problem_1_1.pddl
+  ff domain.pddl  problem_1_1.pddl
+  lama --alias lama-first domain.pddl problem_1_1.pddl
+  lpg-td domain.pddl problem_1_1.pddl
+  symk --alias lama-first domain.pddl problem_1_1.pddl
+```
+
 
 # PROBLEM 2
-
+```
+  downward  --alias lama-first domain.pddl  problem_2_1.pddl
+  ff domain.pddl problem_2_1.pddl
+  lama --alias lama-first domain.pddl problem_2_1.pddl
+  lpg-td domain.pddl problem_2_1.pddl
+  symk --alias lama-first domain.pddl problem_2_1.pddl
+```
 # PROBLEM 3
 
+```
+  java -jar PANDA.jar -parser hddl domain.hddl problem_3_1.hddl
+  java -jar PANDA.jar -parser hddl domain.hddl problem_3_2.hddl
+
+```
+
 # PROBLEM 4
+
+```
+  optic domain_no_neg.pddl problem_4_1_no_neg.pddl
+  tfd domain_no_neg.pddl problem_4_1_no_neg.pddl
+```
 
 # PROBLEM 5
 
